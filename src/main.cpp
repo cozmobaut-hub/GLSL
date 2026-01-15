@@ -1,5 +1,5 @@
 // main.cpp
-// Written in WSL
+// Written in WSL!
 // A simple OpenGL program that creates a window and clears it with a color.
 // Uses GLFW for window/context management and GLAD for OpenGL function loading.
 // On WSL, alias glcompile='cd /mnt/c/Users/your user/OneDrive/Desktop/everything/GLSL 

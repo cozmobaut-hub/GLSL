@@ -38,7 +38,7 @@ int main()
     // glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // only needed on macOS
 
     // Create window
-    GLFWwindow* window = glfwCreateWindow(800, 600, "LearnOpenGL", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "4.5 (Core Profile) Mesa 25.2.6-1", nullptr, nullptr);
     if (window == nullptr)
     {
         std::cerr << "Failed to create GLFW window\n";
@@ -73,7 +73,7 @@ int main()
         processInput(window);
 
         // Rendering commands
-        glClearColor(1.0f, 0.5f, 0.0f, 1.0f);
+        glClearColor(0.5f, 1.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         // Swap buffers and poll events
